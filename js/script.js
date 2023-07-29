@@ -19,7 +19,7 @@ const onGenerateSubmit = (e) => {
     setTimeout(() => {
       hideSpinner();
       generateQRCode(url, size);
-      showScanner();
+      //showScanner();
       // Generate the save button after the qr code image src is ready
       setTimeout(() => {
         // Get save url
