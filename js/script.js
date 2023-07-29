@@ -73,7 +73,7 @@ const createSaveBtn = (saveUrl) => {
   link.id = "save-link";
   link.classList =
     'bg-red-500 hover:bg-red-700 text-white font-bold py-2 rounded w-1/3 m-auto my-5';
-  link.innerHTML = "Save Image";
+  link.innerHTML = "保存图片";
 
   link.href = saveUrl;
   link.download = "qrcode.png";
