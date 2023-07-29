@@ -26,7 +26,7 @@ const onGenerateSubmit = (e) => {
         const saveUrl = qr.querySelector("canvas").toDataURL();
         // Create save button
         createSaveBtn(saveUrl);
-      }, 50);
+      }, 500);
     }, 1000);
   }
 };
